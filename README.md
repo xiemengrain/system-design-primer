@@ -460,6 +460,9 @@ Responses return the most recent version of the data available on a node, which 
 
 AP is a good choice if the business needs allow for [eventual consistency](#eventual-consistency) or when the system needs to continue working despite external errors.
 
+
+##### further readings
+* [eventual consistency deep dive with examples](https://hackernoon.com/eventual-vs-strong-consistency-in-distributed-databases-282fdad37cf7)
 ### Source(s) and further reading
 
 * [CAP theorem revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
@@ -933,6 +936,7 @@ In most systems, reads can heavily outnumber writes 100:1 or even 1000:1.  A rea
 ###### Source(s) and further reading: denormalization
 
 * [Denormalization](https://en.wikipedia.org/wiki/Denormalization)
+* [Denormalize db with example](https://rubygarage.org/blog/database-denormalization-with-examples)
 
 #### SQL tuning
 
@@ -995,6 +999,10 @@ NoSQL is a collection of data items represented in a **key-value store**, **docu
 * **Eventual consistency** - the system will become consistent over a period of time, given that the system doesn't receive input during that period.
 
 In addition to choosing between [SQL or NoSQL](#sql-or-nosql), it is helpful to understand which type of NoSQL database best fits your use case(s).  We'll review **key-value stores**, **document stores**, **wide column stores**, and **graph databases** in the next section.
+
+##### further reading:
+ * [NoSql schema design with examples](https://www.slideshare.net/HadoopSummit/realworld-nosql-schema-design)
+ 
 
 #### Key-value store
 
